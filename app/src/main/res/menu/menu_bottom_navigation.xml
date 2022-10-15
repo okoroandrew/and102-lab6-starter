@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_books"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="@string/books"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_articles"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/articlesearch"
+        app:showAsAction="ifRoom" />
+</menu>
